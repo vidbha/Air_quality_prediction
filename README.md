@@ -10,10 +10,7 @@ BiLSTM Model: A deep learning model for capturing temporal patterns in air quali
 XGBoost Model: A gradient boosting model used to enhance prediction performance.
 Combined Prediction: The predictions from both models can be averaged (or weighted) to produce a final forecast.
 Directory Structure
-pgsql
-Copy
-Edit
-aq/
+
 ├── api.py                      # Main Flask application handling routes and prediction API.
 ├── bilstm_model.keras          # Trained BiLSTM model file.
 ├── Implementation.ipynb        # Jupyter Notebook for model training, data exploration, or analysis.

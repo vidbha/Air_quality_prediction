@@ -41,16 +41,6 @@ This project is a **real-time air quality monitoring and prediction system**. It
         └── trial.json
 ```
 
----
-
-## 🛠 Installation & Setup
-
-### **1️⃣ Install Dependencies**
-Ensure you have **Python 3.x** installed. Install required packages using:
-```bash
-pip install flask pymongo numpy requests tensorflow keras joblib xgboost scikit-learn
-```
-
 ### **2️⃣ Set Up MongoDB**
 - Ensure MongoDB is **installed and running**.
 - Update the MongoDB connection string in `api.py` and `mongo.py` if needed.
@@ -101,16 +91,4 @@ The application will be available at: [http://localhost:5000](http://localhost:5
 - **Enhanced Dashboard**: Add interactive graphs and time-series forecasting.
 - **Deployment**: Containerize with **Docker** and deploy on cloud platforms like AWS/GCP.
 
----
 
-## 💡 Contributing
-Feel free to **fork**, **contribute**, and **submit pull requests**! 😊
-
----
-
-## 📜 License
-This project is open-source and available under the **MIT License**.
-
----
-
-### ⭐ **Star this repo if you found it useful!** ⭐

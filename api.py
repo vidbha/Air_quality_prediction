@@ -16,7 +16,7 @@ client = MongoClient('localhost', 27017)
 db = client['air_quality']
 collection = db['delhi_data']
 
-api_key = "30a138a76e35b2db42e4c713c73fb3f9"
+api_key = "your API key"
 latitude = 28.6139
 longitude = 77.2090
 

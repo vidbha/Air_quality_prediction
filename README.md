@@ -1,13 +1,13 @@
 # Real-Time Air Quality Dashboard and Prediction System 🚀
 
-This project is a **real-time air quality monitoring and prediction system**. It fetches live air quality data from an external API, processes and stores the data in **MongoDB**, and provides a **Flask-based dashboard** for visualization. The system employs two machine learning models—**BiLSTM** and **XGBoost**—to predict future AQI (Air Quality Index) values, improving forecast accuracy by combining their outputs.
+This project is a **real-time air quality monitoring and prediction system**. It fetches live air quality data from an external API, processes and stores the data in **MongoDB**, and provides a **Flask-based dashboard** for visualization. The system employs hybrid approach by combining time-based deep learning models—**BiLSTM** and machine learning **XGBoost**— model on past 5 years real dataset taken from CPCB govt. website for Delhi region, Trained to predict future AQI (Air Quality Index) values, improving forecast accuracy by combining their outputs.
 
 ---
 
 ## 🌍 Project Overview
 
 ### ✅ **Key Features**
-- **Real-Time Monitoring**: Fetches live air quality data (e.g., PM2.5, PM10, NO2, Ozone, SO2) and calculates AQI.
+- **Real-Time Monitoring**: Fetches live air quality data (e.g., PM2.5, PM10, NO2, Ozone, SO2) from open weather using Api key and calculates AQI.
 - **Data Storage**: Stores processed data in a **MongoDB database**.
 - **Interactive Dashboard**: A Flask web app provides real-time AQI visualizations.
 - **Machine Learning Predictions**:
